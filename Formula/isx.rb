@@ -1,30 +1,30 @@
 class Isx < Formula
   desc "CLI for isxcode app"
   homepage "https://github.com/isxcode/isx-cli"
-  version "1.1.3"
+  version "1.1.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.3/isx_darwin_arm64", using: :nounzip
-      sha256 "07027877dd32fdc8a1ffcd1a68f1bb3bfb4cd969cb883acd74cadb08cf0fd656"
+      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.4/isx_darwin_arm64", using: :nounzip
+      sha256 "5f3ce98a5a27b0ef4bf69dd471595c8b4d1cf013f7b627ba4a18104babc03289"
     end
 
     on_intel do
-      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.3/isx_darwin_amd64", using: :nounzip
-      sha256 "c572f048ebbf44b26a79ddbf398c19d7add5eeb9a48df83bec8a8d0999a2ff4e"
+      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.4/isx_darwin_amd64", using: :nounzip
+      sha256 "6e895901c5cf7bb612affb2b4520afe5bf46a2e465680cf557b5c37b002d61ba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.3/isx_linux_arm64", using: :nounzip
-      sha256 "6c8361f7f0f408abdee074fc01c1a64b87ee13926da955f653e2f756f7b8bc93"
+      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.4/isx_linux_arm64", using: :nounzip
+      sha256 "44436b8848eabac54e79f30ab5a45556df41719c418ecabcc1e5e2df58513f34"
     end
 
     on_intel do
-      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.3/isx_linux_amd64", using: :nounzip
-      sha256 "9411526ad9fc461e70794cbb7a1188209bc05a9ec2e20307b428c5e180cc2b0d"
+      url "https://github.com/isxcode/isx-cli/releases/download/v1.1.4/isx_linux_amd64", using: :nounzip
+      sha256 "87a60d81270f207e481a16f842b382842d698c0eb828d20ff127bd79a07153fd"
     end
   end
 
